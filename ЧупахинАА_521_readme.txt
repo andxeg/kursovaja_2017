@@ -13,7 +13,7 @@ https://github.com/andxeg/kursovaja_2017
 1. В корневой папке выполнить команду  $ mkdir ./build
 2. Далее $ cd ./build
 3. Собираем make-файл и компилируем программу $ cmake ../algo && make -j2
-4. Запускаем алгоритм $
+4. Запускаем алгоритм $ ./algo ../tests/input/A1_NUMA_1.dcxml out.xml out.h [optionally:numa_stat]
 
 
 ===============================ИЕРАРХИЯ_КАТАЛОГОВ==============================
