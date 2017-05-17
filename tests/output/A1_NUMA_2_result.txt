@@ -1,0 +1,1540 @@
+Current time -> 2017-5-17.20:28:28
+Before_scheduling
+BEFORE algorithm.schedule();
+99
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 1
+98
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 2
+97
+----------------[INFO] slAssignment was finished
+---------------------assign 624 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2da75f0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 628 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2da8440, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 3
+96
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 4
+95
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 5
+94
+----------------[INFO] slAssignment was finished
+---------------------assign 606 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d9f8f0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 605 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d9f650, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 609 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2da01c0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 608 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d9fed0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 6
+93
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 7
+92
+----------------[INFO] slAssignment was finished
+---------------------assign 592 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d969a0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 8
+91
+----------------[INFO] slAssignment was finished
+---------------------assign 588 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d94520, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 591 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d950d0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 586 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d93f40, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 9
+90
+----------------[INFO] slAssignment was finished
+---------------------assign 579 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d911b0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 584 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d92270, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 585 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d925e0, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 582 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d91bd0, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 583 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d91f20, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 10
+89
+----------------[INFO] slAssignment was finished
+---------------------assign 574 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d8eb80, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 573 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d8e8e0, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 11
+87
+----------------[INFO] slAssignment was finished
+---------------------assign 562 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d87c00, 64 possible candidates
+Exhaustive search decomposing, attempted 3 of 1000 attempts, not exhausted
+assign 560 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d875d0, 64 possible candidates
+Exhaustive search decomposing, attempted 3 of 1000 attempts, not exhausted
+assign 563 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d87f40, 64 possible candidates
+Exhaustive search decomposing, attempted 3 of 1000 attempts, not exhausted
+assign 565 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d886b0, 64 possible candidates
+Exhaustive search decomposing, attempted 3 of 1000 attempts, not exhausted
+assign 564 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d882e0, 64 possible candidates
+Exhaustive search decomposing, attempted 3 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 12
+86
+----------------[INFO] slAssignment was finished
+---------------------assign 556 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d84a00, 64 possible candidates
+Exhaustive search decomposing, attempted 3 of 1000 attempts, not exhausted
+assign 557 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d84d20, 64 possible candidates
+Exhaustive search decomposing, attempted 4 of 1000 attempts, not exhausted
+assign 558 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d85140, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 13
+85
+----------------[INFO] slAssignment was finished
+---------------------assign 548 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d81b20, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 552 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d827d0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 550 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d82150, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 14
+84
+----------------[INFO] slAssignment was finished
+---------------------assign 543 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d7da80, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 15
+83
+----------------[INFO] slAssignment was finished
+---------------------assign 535 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d7a870, 64 possible candidates
+Exhaustive search decomposing, attempted 5 of 1000 attempts, not exhausted
+assign 541 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d7bcf0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 540 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d7b960, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 539 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d7b610, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 536 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d7aca0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 537 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d7af70, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 16
+82
+----------------[INFO] slAssignment was finished
+---------------------assign 529 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d77d80, 64 possible candidates
+Exhaustive search decomposing, attempted 6 of 1000 attempts, not exhausted
+assign 534 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d78e90, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 530 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d78070, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 533 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d78ac0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 531 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d783b0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 532 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d786f0, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 17
+81
+----------------[INFO] slAssignment was finished
+---------------------assign 522 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d74ff0, 64 possible candidates
+Exhaustive search decomposing, attempted 7 of 1000 attempts, not exhausted
+assign 528 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d76420, 64 possible candidates
+Exhaustive search decomposing, attempted 7 of 1000 attempts, not exhausted
+assign 527 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d760b0, 64 possible candidates
+Exhaustive search decomposing, attempted 7 of 1000 attempts, not exhausted
+assign 523 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d75290, 64 possible candidates
+Exhaustive search decomposing, attempted 7 of 1000 attempts, not exhausted
+assign 525 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d75a60, 64 possible candidates
+Exhaustive search decomposing, attempted 7 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 18
+80
+----------------[INFO] slAssignment was finished
+---------------------assign 517 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d72850, 64 possible candidates
+Exhaustive search decomposing, attempted 8 of 1000 attempts, not exhausted
+assign 516 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d72470, 64 possible candidates
+Exhaustive search decomposing, attempted 7 of 1000 attempts, not exhausted
+assign 521 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d73600, 64 possible candidates
+Exhaustive search decomposing, attempted 8 of 1000 attempts, not exhausted
+assign 519 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d72f40, 64 possible candidates
+Exhaustive search decomposing, attempted 3 of 1000 attempts, not exhausted
+assign 518 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d72c40, 64 possible candidates
+Exhaustive search decomposing, attempted 8 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 19
+79
+----------------[INFO] slAssignment was finished
+---------------------assign 508 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d6f550, 64 possible candidates
+Exhaustive search decomposing, attempted 9 of 1000 attempts, not exhausted
+assign 510 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d6fc20, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 512 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d70200, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 514 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d707e0, 64 possible candidates
+Exhaustive search decomposing, attempted 8 of 1000 attempts, not exhausted
+assign 511 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d6ff10, 64 possible candidates
+Exhaustive search decomposing, attempted 10 of 1000 attempts, not exhausted
+assign 513 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d704f0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 509 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d6f980, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 20
+77
+----------------[INFO] slAssignment was finished
+---------------------assign 496 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d67fa0, 64 possible candidates
+Exhaustive search decomposing, attempted 8 of 1000 attempts, not exhausted
+assign 497 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d68240, 64 possible candidates
+Exhaustive search decomposing, attempted 11 of 1000 attempts, not exhausted
+assign 501 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d68fa0, 64 possible candidates
+Exhaustive search decomposing, attempted 4 of 1000 attempts, not exhausted
+assign 498 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d68580, 64 possible candidates
+Exhaustive search decomposing, attempted 8 of 1000 attempts, not exhausted
+assign 500 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d68c00, 64 possible candidates
+Exhaustive search decomposing, attempted 10 of 1000 attempts, not exhausted
+assign 499 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d688c0, 64 possible candidates
+Exhaustive search decomposing, attempted 11 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 21
+78
+----------------[INFO] slAssignment was finished
+---------------------assign 505 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d6b7a0, 64 possible candidates
+Exhaustive search decomposing, attempted 11 of 1000 attempts, not exhausted
+assign 503 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d6ad60, 64 possible candidates
+Exhaustive search decomposing, attempted 3 of 1000 attempts, not exhausted
+assign 504 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d6b250, 64 possible candidates
+Exhaustive search decomposing, attempted 11 of 1000 attempts, not exhausted
+assign 502 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d6a930, 64 possible candidates
+Exhaustive search decomposing, attempted 12 of 1000 attempts, not exhausted
+assign 507 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d6c240, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d6b250, 64 possible candidates
+Exhaustive search decomposing, attempted 117 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 22
+75
+----------------[INFO] slAssignment was finished
+---------------------assign 484 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d5f950, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 486 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d60240, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 488 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d60ce0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 489 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d61230, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 485 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d5fd80, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 487 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d60790, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 23
+74
+----------------[INFO] slAssignment was finished
+---------------------assign 477 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d5cbc0, 64 possible candidates
+Exhaustive search decomposing, attempted 9 of 1000 attempts, not exhausted
+assign 479 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d5d290, 64 possible candidates
+Exhaustive search decomposing, attempted 3 of 1000 attempts, not exhausted
+assign 480 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d5d5e0, 64 possible candidates
+Exhaustive search decomposing, attempted 12 of 1000 attempts, not exhausted
+assign 478 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d5cff0, 64 possible candidates
+Exhaustive search decomposing, attempted 13 of 1000 attempts, not exhausted
+assign 482 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d5dc80, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d5cbc0, 64 possible candidates
+Exhaustive search decomposing, attempted 221 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 24
+73
+----------------[INFO] slAssignment was finished
+---------------------assign 470 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d59f50, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d59f50, 64 possible candidates
+Exhaustive search decomposing, attempted 78 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 25
+72
+----------------[INFO] slAssignment was finished
+---------------------assign 466 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d56620, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 467 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d569a0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 465 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d56190, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d56620, 64 possible candidates
+Exhaustive search decomposing, attempted 139 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d55db0, 64 possible candidates
+Exhaustive search decomposing, attempted 39 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 26
+71
+----------------[INFO] slAssignment was finished
+---------------------assign 457 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d530f0, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 463 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d54430, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d530f0, 64 possible candidates
+Exhaustive search decomposing, attempted 19 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 27
+69
+----------------[INFO] slAssignment was finished
+---------------------assign 444 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d4bf30, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 448 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d4cca0, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 446 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d4c5b0, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 449 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d4cff0, 64 possible candidates
+Exhaustive search decomposing, attempted 19 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d4bf30, 64 possible candidates
+Exhaustive search decomposing, attempted 140 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d4c5b0, 64 possible candidates
+Exhaustive search decomposing, attempted 46 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 28
+68
+----------------[INFO] slAssignment was finished
+---------------------assign 438 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d493b0, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 440 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d49b80, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d49110, 64 possible candidates
+Exhaustive search decomposing, attempted 326 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 29
+67
+----------------[INFO] slAssignment was finished
+---------------------assign 430 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d462a0, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 436 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d47720, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 431 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d46540, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 434 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d47040, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d46920, 64 possible candidates
+Exhaustive search decomposing, attempted 157 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 30
+66
+----------------[INFO] slAssignment was finished
+---------------------assign 428 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d44470, 64 possible candidates
+Exhaustive search decomposing, attempted 5 of 1000 attempts, not exhausted
+assign 429 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d44840, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d440a0, 64 possible candidates
+Exhaustive search decomposing, attempted 33 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 31
+64
+----------------[INFO] slAssignment was finished
+---------------------assign 413 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d3e160, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 416 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d3ea80, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 411 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d3da90, 64 possible candidates
+Exhaustive search decomposing, attempted 14 of 1000 attempts, not exhausted
+assign 414 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d3e4f0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 415 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d3e790, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d3dd80, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 32
+63
+----------------[INFO] slAssignment was finished
+---------------------assign 409 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d3a090, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 407 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d39590, 64 possible candidates
+Exhaustive search decomposing, attempted 5 of 1000 attempts, not exhausted
+assign 405 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d38f40, 64 possible candidates
+Exhaustive search decomposing, attempted 15 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d3a090, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d3a620, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] links assignment failed
+---------------------[ERROR] Failed to assign request 63.
+IN purgeAssignments
+After r->purgeAssignments();
+62
+----------------[INFO] slAssignment was finished
+---------------------assign 399 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d362b0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 401 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d368a0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 403 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d36f40, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 404 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d372b0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 400 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d36550, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d35e80, 64 possible candidates
+Exhaustive search decomposing, attempted 4 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 33
+61
+----------------[INFO] slAssignment was finished
+---------------------assign 394 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d33b00, 64 possible candidates
+Exhaustive search decomposing, attempted 13 of 1000 attempts, not exhausted
+assign 396 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d340e0, 64 possible candidates
+Exhaustive search decomposing, attempted 2 of 1000 attempts, not exhausted
+assign 392 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d33570, 64 possible candidates
+Exhaustive search decomposing, attempted 27 of 1000 attempts, not exhausted
+assign 395 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d33df0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d330f0, 64 possible candidates
+Exhaustive search decomposing, attempted 447 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 34
+59
+----------------[INFO] slAssignment was finished
+---------------------assign 379 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d2c580, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 384 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d2d6c0, 64 possible candidates
+Exhaustive search decomposing, attempted 15 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d2c580, 64 possible candidates
+Exhaustive search decomposing, attempted 39 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 35
+58
+----------------[INFO] slAssignment was finished
+---------------------assign 373 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d29ad0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d29ad0, 64 possible candidates
+Exhaustive search decomposing, attempted 12 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 36
+57
+----------------[INFO] slAssignment was finished
+---------------------assign 369 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d276a0, 64 possible candidates
+Exhaustive search decomposing, attempted 19 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d27360, 64 possible candidates
+Exhaustive search decomposing, attempted 81 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d276a0, 64 possible candidates
+Exhaustive search decomposing, attempted 975 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d279e0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 37
+56
+----------------[INFO] slAssignment was finished
+---------------------assign 360 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d242e0, 64 possible candidates
+Exhaustive search decomposing, attempted 7 of 1000 attempts, not exhausted
+assign 361 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d24580, 64 possible candidates
+Exhaustive search decomposing, attempted 19 of 1000 attempts, not exhausted
+assign 362 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d24960, 64 possible candidates
+Exhaustive search decomposing, attempted 21 of 1000 attempts, not exhausted
+assign 364 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d25050, 64 possible candidates
+Exhaustive search decomposing, attempted 21 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d24960, 64 possible candidates
+Exhaustive search decomposing, attempted 83 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d24580, 64 possible candidates
+Exhaustive search decomposing, attempted 54 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 38
+55
+----------------[INFO] slAssignment was finished
+---------------------assign 354 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d218e0, 64 possible candidates
+Exhaustive search decomposing, attempted 7 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d214b0, 64 possible candidates
+Exhaustive search decomposing, attempted 83 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 39
+54
+----------------[INFO] slAssignment was finished
+---------------------assign 346 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d1e690, 64 possible candidates
+Exhaustive search decomposing, attempted 85 of 1000 attempts, not exhausted
+assign 350 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d1f400, 64 possible candidates
+Exhaustive search decomposing, attempted 215 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d1e690, 64 possible candidates
+Exhaustive search decomposing, attempted 912 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 40
+53
+----------------[INFO] slAssignment was finished
+---------------------assign 339 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d1b870, 64 possible candidates
+Exhaustive search decomposing, attempted 23 of 1000 attempts, not exhausted
+assign 340 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d1bb10, 64 possible candidates
+Exhaustive search decomposing, attempted 23 of 1000 attempts, not exhausted
+assign 343 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d1c5e0, 64 possible candidates
+Exhaustive search decomposing, attempted 25 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d1bef0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d1c930, 64 possible candidates
+Exhaustive search decomposing, attempted 383 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d1b870, 64 possible candidates
+Exhaustive search decomposing, attempted 323 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 41
+52
+----------------[INFO] slAssignment was finished
+---------------------assign 335 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d19470, 64 possible candidates
+Exhaustive search decomposing, attempted 25 of 1000 attempts, not exhausted
+assign 332 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d18a50, 64 possible candidates
+Exhaustive search decomposing, attempted 25 of 1000 attempts, not exhausted
+assign 334 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d19120, 64 possible candidates
+Exhaustive search decomposing, attempted 25 of 1000 attempts, not exhausted
+assign 338 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d19e80, 64 possible candidates
+Exhaustive search decomposing, attempted 25 of 1000 attempts, not exhausted
+assign 337 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d19b10, 64 possible candidates
+Exhaustive search decomposing, attempted 25 of 1000 attempts, not exhausted
+assign 336 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d197c0, 64 possible candidates
+Exhaustive search decomposing, attempted 122 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d18a50, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d18e80, 64 possible candidates
+Exhaustive search decomposing, attempted 82 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 42
+51
+----------------[INFO] slAssignment was finished
+---------------------assign 330 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d16cd0, 64 possible candidates
+Exhaustive search decomposing, attempted 122 of 1000 attempts, not exhausted
+assign 326 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d16010, 64 possible candidates
+Exhaustive search decomposing, attempted 122 of 1000 attempts, not exhausted
+assign 327 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d162e0, 64 possible candidates
+Exhaustive search decomposing, attempted 122 of 1000 attempts, not exhausted
+assign 329 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d16980, 64 possible candidates
+Exhaustive search decomposing, attempted 299 of 1000 attempts, not exhausted
+assign 331 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d17060, 64 possible candidates
+Exhaustive search decomposing, attempted 299 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d15be0, 64 possible candidates
+Exhaustive search decomposing, attempted 414 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 43
+50
+----------------[INFO] slAssignment was finished
+---------------------assign 319 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d130a0, 64 possible candidates
+Exhaustive search decomposing, attempted 300 of 1000 attempts, not exhausted
+assign 320 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d13390, 64 possible candidates
+Exhaustive search decomposing, attempted 266 of 1000 attempts, not exhausted
+assign 321 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d136d0, 64 possible candidates
+Exhaustive search decomposing, attempted 266 of 1000 attempts, not exhausted
+assign 323 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d13e10, 64 possible candidates
+Exhaustive search decomposing, attempted 265 of 1000 attempts, not exhausted
+assign 322 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d13a40, 64 possible candidates
+Exhaustive search decomposing, attempted 266 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d130a0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d13390, 64 possible candidates
+Exhaustive search decomposing, attempted 324 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d130a0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d141e0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] links assignment failed
+---------------------[ERROR] Failed to assign request 50.
+IN purgeAssignments
+After r->purgeAssignments();
+49
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d108e0, 64 possible candidates
+Exhaustive search decomposing, attempted 67 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d10c20, 64 possible candidates
+Exhaustive search decomposing, attempted 300 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d11360, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d11730, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] links assignment failed
+---------------------[ERROR] Failed to assign request 49.
+IN purgeAssignments
+After r->purgeAssignments();
+48
+----------------[INFO] slAssignment was finished
+---------------------assign 310 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d0e4e0, 64 possible candidates
+Exhaustive search decomposing, attempted 66 of 1000 attempts, not exhausted
+assign 309 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d0e170, 64 possible candidates
+Exhaustive search decomposing, attempted 85 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d0db40, 64 possible candidates
+Exhaustive search decomposing, attempted 324 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d0e4e0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d0e8b0, 64 possible candidates
+Exhaustive search decomposing, attempted 147 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 44
+47
+----------------[INFO] slAssignment was finished
+---------------------assign 306 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d0c1d0, 64 possible candidates
+Exhaustive search decomposing, attempted 252 of 1000 attempts, not exhausted
+assign 304 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d0ba30, 64 possible candidates
+Exhaustive search decomposing, attempted 300 of 1000 attempts, not exhausted
+assign 301 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d0b090, 64 possible candidates
+Exhaustive search decomposing, attempted 300 of 1000 attempts, not exhausted
+assign 303 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d0b6c0, 64 possible candidates
+Exhaustive search decomposing, attempted 300 of 1000 attempts, not exhausted
+assign 302 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d0b380, 64 possible candidates
+Exhaustive search decomposing, attempted 303 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d0b090, 64 possible candidates
+Exhaustive search decomposing, attempted 416 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 45
+46
+----------------[INFO] slAssignment was finished
+---------------------assign 295 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d08630, 64 possible candidates
+Exhaustive search decomposing, attempted 6 of 1000 attempts, not exhausted
+assign 299 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d09370, 64 possible candidates
+Exhaustive search decomposing, attempted 300 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d08fa0, 64 possible candidates
+Exhaustive search decomposing, attempted 303 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d09370, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d09740, 64 possible candidates
+Exhaustive search decomposing, attempted 56 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 46
+45
+----------------[INFO] slAssignment was finished
+---------------------assign 290 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d05f20, 64 possible candidates
+Exhaustive search decomposing, attempted 361 of 1000 attempts, not exhausted
+assign 293 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d06960, 64 possible candidates
+Exhaustive search decomposing, attempted 303 of 1000 attempts, not exhausted
+assign 294 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d06cd0, 64 possible candidates
+Exhaustive search decomposing, attempted 303 of 1000 attempts, not exhausted
+assign 288 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d058a0, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+assign 289 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d05b40, 64 possible candidates
+Exhaustive search decomposing, attempted 224 of 1000 attempts, not exhausted
+assign 292 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d06610, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+assign 291 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d06310, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2d05b40, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d05f20, 64 possible candidates
+Exhaustive search decomposing, attempted 637 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 47
+44
+----------------[INFO] slAssignment was finished
+---------------------assign 286 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d03b40, 64 possible candidates
+Exhaustive search decomposing, attempted 10 of 1000 attempts, not exhausted
+assign 287 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d03eb0, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+assign 284 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d034f0, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+assign 285 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d037f0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 44.
+IN purgeAssignments
+After r->purgeAssignments();
+43
+----------------[INFO] slAssignment was finished
+---------------------assign 275 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d00090, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+assign 276 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d00330, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2cffc60, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2d00fe0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] links assignment failed
+---------------------[ERROR] Failed to assign request 43.
+IN purgeAssignments
+After r->purgeAssignments();
+42
+----------------[INFO] slAssignment was finished
+---------------------assign 269 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cfd470, 64 possible candidates
+Exhaustive search decomposing, attempted 72 of 1000 attempts, not exhausted
+assign 270 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cfd890, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2cfcdf0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2cfd090, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] links assignment failed
+---------------------[ERROR] Failed to assign request 42.
+IN purgeAssignments
+After r->purgeAssignments();
+41
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2cfadb0, 64 possible candidates
+Exhaustive search decomposing, attempted 336 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2cfa440, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2cfa730, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] links assignment failed
+---------------------[ERROR] Failed to assign request 41.
+IN purgeAssignments
+After r->purgeAssignments();
+40
+----------------[INFO] slAssignment was finished
+---------------------assign 260 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cf7c40, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 255 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cf66b0, 64 possible candidates
+Exhaustive search decomposing, attempted 278 of 1000 attempts, not exhausted
+assign 256 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cf69a0, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2cf69a0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2cf7c40, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] links assignment failed
+---------------------[ERROR] Failed to assign request 40.
+IN purgeAssignments
+After r->purgeAssignments();
+39
+----------------[INFO] slAssignment was finished
+---------------------assign 252 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cf45c0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 253 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cf4990, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2cf4990, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2cf4d60, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] links assignment failed
+---------------------[ERROR] Failed to assign request 39.
+IN purgeAssignments
+After r->purgeAssignments();
+38
+----------------[INFO] slAssignment was finished
+---------------------assign 243 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cf0de0, 64 possible candidates
+Exhaustive search decomposing, attempted 1 of 1000 attempts, not exhausted
+assign 248 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cf2070, 64 possible candidates
+Exhaustive search decomposing, attempted 278 of 1000 attempts, not exhausted
+assign 244 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cf10d0, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2cf13c0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2cf1ba0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] links assignment failed
+---------------------[ERROR] Failed to assign request 38.
+IN purgeAssignments
+After r->purgeAssignments();
+37
+----------------[INFO] slAssignment was finished
+---------------------assign 238 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cee670, 64 possible candidates
+Exhaustive search decomposing, attempted 118 of 1000 attempts, not exhausted
+assign 242 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cef490, 64 possible candidates
+Exhaustive search decomposing, attempted 278 of 1000 attempts, not exhausted
+assign 237 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cee380, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2cee9b0, 64 possible candidates
+Exhaustive search decomposing, attempted 833 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2cef0c0, 64 possible candidates
+Exhaustive search decomposing, attempted 103 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 48
+36
+----------------[INFO] slAssignment was finished
+---------------------assign 232 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cebc20, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+assign 230 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ceb5a0, 64 possible candidates
+Exhaustive search decomposing, attempted 103 of 1000 attempts, not exhausted
+assign 231 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ceb840, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 36.
+IN purgeAssignments
+After r->purgeAssignments();
+35
+----------------[INFO] slAssignment was finished
+---------------------assign 228 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ce97f0, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+assign 229 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ce9bc0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 35.
+IN purgeAssignments
+After r->purgeAssignments();
+34
+----------------[INFO] slAssignment was finished
+---------------------assign 221 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ce6a90, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+assign 222 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ce6de0, 64 possible candidates
+Exhaustive search decomposing, attempted 941 of 1000 attempts, not exhausted
+assign 223 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ce7150, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 34.
+IN purgeAssignments
+After r->purgeAssignments();
+33
+----------------[INFO] slAssignment was finished
+---------------------assign 212 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ce3530, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+assign 216 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ce4330, 64 possible candidates
+Exhaustive search decomposing, attempted 454 of 1000 attempts, not exhausted
+assign 211 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ce3150, 64 possible candidates
+Exhaustive search decomposing, attempted 745 of 1000 attempts, not exhausted
+assign 213 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ce3950, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 33.
+IN purgeAssignments
+After r->purgeAssignments();
+32
+----------------[INFO] slAssignment was finished
+---------------------assign 205 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ce0590, 64 possible candidates
+Exhaustive search decomposing, attempted 164 of 1000 attempts, not exhausted
+assign 204 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ce0250, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 32.
+IN purgeAssignments
+After r->purgeAssignments();
+31
+----------------[INFO] slAssignment was finished
+---------------------assign 200 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cde190, 64 possible candidates
+Exhaustive search decomposing, attempted 103 of 1000 attempts, not exhausted
+assign 201 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cde480, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+assign 202 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cde7a0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 31.
+IN purgeAssignments
+After r->purgeAssignments();
+30
+----------------[INFO] slAssignment was finished
+---------------------assign 192 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cd9950, 64 possible candidates
+Exhaustive search decomposing, attempted 65 of 1000 attempts, not exhausted
+assign 194 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cda260, 64 possible candidates
+Exhaustive search decomposing, attempted 948 of 1000 attempts, not exhausted
+assign 191 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cd9520, 64 possible candidates
+Exhaustive search decomposing, attempted 476 of 1000 attempts, not exhausted
+assign 195 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cda730, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 30.
+IN purgeAssignments
+After r->purgeAssignments();
+29
+----------------[INFO] slAssignment was finished
+---------------------assign 189 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cd78d0, 64 possible candidates
+Exhaustive search decomposing, attempted 305 of 1000 attempts, not exhausted
+assign 184 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cd68d0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 29.
+IN purgeAssignments
+After r->purgeAssignments();
+28
+----------------[INFO] slAssignment was finished
+---------------------assign 180 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cd32c0, 64 possible candidates
+Exhaustive search decomposing, attempted 246 of 1000 attempts, not exhausted
+assign 179 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cd3020, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 28.
+IN purgeAssignments
+After r->purgeAssignments();
+27
+----------------[INFO] slAssignment was finished
+---------------------assign 176 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cd0110, 64 possible candidates
+Exhaustive search decomposing, attempted 246 of 1000 attempts, not exhausted
+assign 173 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ccf330, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 27.
+IN purgeAssignments
+After r->purgeAssignments();
+26
+----------------[INFO] slAssignment was finished
+---------------------assign 170 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ccd230, 64 possible candidates
+Exhaustive search decomposing, attempted 246 of 1000 attempts, not exhausted
+assign 169 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cccee0, 64 possible candidates
+Exhaustive search decomposing, attempted 191 of 1000 attempts, not exhausted
+assign 171 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ccd5a0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 26.
+IN purgeAssignments
+After r->purgeAssignments();
+25
+----------------[INFO] slAssignment was finished
+---------------------assign 160 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cc9a70, 64 possible candidates
+Exhaustive search decomposing, attempted 485 of 1000 attempts, not exhausted
+assign 161 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cc9e00, 64 possible candidates
+Exhaustive search decomposing, attempted 131 of 1000 attempts, not exhausted
+assign 162 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cca100, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 25.
+IN purgeAssignments
+After r->purgeAssignments();
+24
+----------------[INFO] slAssignment was finished
+---------------------assign 154 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cc6640, 64 possible candidates
+Exhaustive search decomposing, attempted 507 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2cc6210, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2cc6640, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] links assignment failed
+---------------------[ERROR] Failed to assign request 24.
+IN purgeAssignments
+After r->purgeAssignments();
+23
+----------------[INFO] slAssignment was finished
+---------------------assign 147 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cc2890, 64 possible candidates
+Exhaustive search decomposing, attempted 101 of 1000 attempts, not exhausted
+assign 146 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cc2500, 64 possible candidates
+Exhaustive search decomposing, attempted 131 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2cc2d20, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+Created exhaustive search environment to assign element 0x2cc38c0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] links assignment failed
+---------------------[ERROR] Failed to assign request 23.
+IN purgeAssignments
+After r->purgeAssignments();
+22
+----------------[INFO] slAssignment was finished
+---------------------assign 144 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cc0780, 64 possible candidates
+Exhaustive search decomposing, attempted 101 of 1000 attempts, not exhausted
+assign 145 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cc0b50, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 22.
+IN purgeAssignments
+After r->purgeAssignments();
+20
+----------------[INFO] slAssignment was finished
+---------------------assign 132 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cbae60, 64 possible candidates
+Exhaustive search decomposing, attempted 131 of 1000 attempts, not exhausted
+assign 131 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cbab10, 64 possible candidates
+Exhaustive search decomposing, attempted 957 of 1000 attempts, not exhausted
+assign 127 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cb9d20, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 20.
+IN purgeAssignments
+After r->purgeAssignments();
+19
+----------------[INFO] slAssignment was finished
+---------------------assign 124 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cb6360, 64 possible candidates
+Exhaustive search decomposing, attempted 101 of 1000 attempts, not exhausted
+assign 123 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cb5f00, 64 possible candidates
+Exhaustive search decomposing, attempted 64 of 1000 attempts, not exhausted
+----------------[INFO] assignNodes was finished
+---------------------Created exhaustive search environment to assign element 0x2cb5f00, 64 possible candidates
+Exhaustive search decomposing, attempted 101 of 1000 attempts, not exhausted
+++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 49
+18
+----------------[INFO] slAssignment was finished
+---------------------assign 119 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cb2100, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 18.
+IN purgeAssignments
+After r->purgeAssignments();
+17
+----------------[INFO] slAssignment was finished
+---------------------assign 111 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cae9c0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 17.
+IN purgeAssignments
+After r->purgeAssignments();
+16
+----------------[INFO] slAssignment was finished
+---------------------assign 103 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cab930, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 16.
+IN purgeAssignments
+After r->purgeAssignments();
+15
+----------------[INFO] slAssignment was finished
+---------------------assign 102 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ca9ff0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 15.
+IN purgeAssignments
+After r->purgeAssignments();
+13
+----------------[INFO] slAssignment was finished
+---------------------assign 85 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ca1930, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 13.
+IN purgeAssignments
+After r->purgeAssignments();
+12
+----------------[INFO] slAssignment was finished
+---------------------assign 80 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c9f230, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 12.
+IN purgeAssignments
+After r->purgeAssignments();
+14
+----------------[INFO] slAssignment was finished
+---------------------assign 95 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2ca59b0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 14.
+IN purgeAssignments
+After r->purgeAssignments();
+10
+----------------[INFO] slAssignment was finished
+---------------------assign 66 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c97ae0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 10.
+IN purgeAssignments
+After r->purgeAssignments();
+9
+----------------[INFO] slAssignment was finished
+---------------------assign 60 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c94ef0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 9.
+IN purgeAssignments
+After r->purgeAssignments();
+8
+----------------[INFO] slAssignment was finished
+---------------------assign 58 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c932f0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 8.
+IN purgeAssignments
+After r->purgeAssignments();
+7
+----------------[INFO] slAssignment was finished
+---------------------assign 52 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c90080, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 7.
+IN purgeAssignments
+After r->purgeAssignments();
+6
+----------------[INFO] slAssignment was finished
+---------------------assign 42 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c8c550, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 6.
+IN purgeAssignments
+After r->purgeAssignments();
+5
+----------------[INFO] slAssignment was finished
+---------------------assign 33 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c890b0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 5.
+IN purgeAssignments
+After r->purgeAssignments();
+4
+----------------[INFO] slAssignment was finished
+---------------------assign 28 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c86910, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 4.
+IN purgeAssignments
+After r->purgeAssignments();
+3
+----------------[INFO] slAssignment was finished
+---------------------assign 19 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c83460, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 3.
+IN purgeAssignments
+After r->purgeAssignments();
+1
+----------------[INFO] slAssignment was finished
+---------------------assign 11 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c79450, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 1.
+IN purgeAssignments
+After r->purgeAssignments();
+2
+----------------[INFO] slAssignment was finished
+---------------------assign 17 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c81810, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 2.
+IN purgeAssignments
+After r->purgeAssignments();
+88
+----------------[INFO] slAssignment was finished
+---------------------assign 570 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d8b220, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 88.
+IN purgeAssignments
+After r->purgeAssignments();
+70
+----------------[INFO] slAssignment was finished
+---------------------assign 451 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d4ecc0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 70.
+IN purgeAssignments
+After r->purgeAssignments();
+21
+----------------[INFO] slAssignment was finished
+---------------------assign 134 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2cbd000, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 21.
+IN purgeAssignments
+After r->purgeAssignments();
+76
+----------------[INFO] slAssignment was finished
+---------------------assign 491 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d64750, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 76.
+IN purgeAssignments
+After r->purgeAssignments();
+60
+----------------[INFO] slAssignment was finished
+---------------------assign 385 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d2f030, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 60.
+IN purgeAssignments
+After r->purgeAssignments();
+11
+----------------[INFO] slAssignment was finished
+---------------------assign 73 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c9c2a0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 11.
+IN purgeAssignments
+After r->purgeAssignments();
+65
+----------------[INFO] slAssignment was finished
+---------------------assign 422 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2d41500, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 65.
+IN purgeAssignments
+After r->purgeAssignments();
+0
+----------------[INFO] slAssignment was finished
+---------------------assign 0 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x2c7edc0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 0.
+IN purgeAssignments
+After r->purgeAssignments();
+Already assigned requests -> 0
+AFTER algorithm.schedule();
+Before printResultsInHuaweiStyle
+
+
+Assignment size -> 49
+
+Current time -> 2017-5-17.20:29:1
+Algorithm work time -> 0  hours 0 mins 33 secs
+
+All virtual resources RAM 7661 VCPUs 974 
+Sum virtual throughput 3794
+
+All physical resources RAM 4096 VCPUs 1024 
+Sum physical throughput 31914
+
+Used physical resources RAM 3797 VCPUs 485 
+Used physical throughput  10702
+
+RAM utilization 0.927002 VCPUs utilization 0.473633 Network utilization 0.335339
+Requests all -> 100
+Requests assigned -> 49
+Requests not assigned -> 51
+
+Print rules statistics
+VM-PM affinity rules:
+All -> 0
+Correct -> 0
+Unassigned -> 0
+Incorrect -> 0
+
+VM-PM anti-affinity rules:
+All -> 0
+Correct -> 0
+Unassigned -> 0
+Incorrect -> 0
+
+VM-VM affinity rules:
+All -> 0
+Correct -> 0
+Unassigned -> 0
+
+VM-VM anti-affinity rules:
+All -> 0
+Correct -> 0
+Incorrect -> 0

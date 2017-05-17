@@ -1,0 +1,886 @@
+Current time -> 2017-5-17.20:37:56
+Before_scheduling
+BEFORE algorithm.schedule();
+99
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 1
+98
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 2
+96
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 3
+94
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 4
+93
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 5
+92
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 6
+91
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 7
+90
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 8
+89
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 9
+88
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 10
+87
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 11
+86
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 12
+84
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 13
+83
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 14
+82
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 15
+81
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 16
+80
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 17
+79
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 18
+78
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 19
+76
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 20
+75
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 21
+73
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 22
+74
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 23
+72
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 24
+71
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 25
+70
+----------------[INFO] slAssignment was finished
+---------------------assign 459 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18b0870, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 70.
+IN purgeAssignments
+After r->purgeAssignments();
+69
+----------------[INFO] slAssignment was finished
+---------------------assign 453 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18ad990, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 69.
+IN purgeAssignments
+After r->purgeAssignments();
+68
+----------------[INFO] slAssignment was finished
+---------------------assign 445 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18aa910, 64 possible candidates
+Exhaustive search decomposing, attempted 21 of 1000 attempts, not exhausted
+assign 448 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18ab350, 64 possible candidates
+Exhaustive search decomposing, attempted 264 of 1000 attempts, not exhausted
+assign 449 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18ab6c0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 68.
+IN purgeAssignments
+After r->purgeAssignments();
+67
+----------------[INFO] slAssignment was finished
+---------------------assign 441 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18a8530, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 67.
+IN purgeAssignments
+After r->purgeAssignments();
+66
+----------------[INFO] slAssignment was finished
+---------------------assign 435 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18a5a80, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 66.
+IN purgeAssignments
+After r->purgeAssignments();
+65
+----------------[INFO] slAssignment was finished
+---------------------assign 426 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18a25a0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 65.
+IN purgeAssignments
+After r->purgeAssignments();
+64
+----------------[INFO] slAssignment was finished
+---------------------assign 416 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x189ee00, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 64.
+IN purgeAssignments
+After r->purgeAssignments();
+63
+----------------[INFO] slAssignment was finished
+---------------------assign 410 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x189c110, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 63.
+IN purgeAssignments
+After r->purgeAssignments();
+62
+----------------[INFO] slAssignment was finished
+---------------------assign 404 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1897dd0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 62.
+IN purgeAssignments
+After r->purgeAssignments();
+61
+----------------[INFO] slAssignment was finished
+-------------------------------------[INFO] assignNodes was finished
+---------------------++++++++++++++++++++++
+----------------[INFO] links assignment was finished
+---------------------Now assigned -> 26
+60
+----------------[INFO] slAssignment was finished
+---------------------assign 390 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18920e0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 60.
+IN purgeAssignments
+After r->purgeAssignments();
+59
+----------------[INFO] slAssignment was finished
+---------------------assign 382 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x188efd0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 59.
+IN purgeAssignments
+After r->purgeAssignments();
+58
+----------------[INFO] slAssignment was finished
+---------------------assign 381 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x188d5d0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 58.
+IN purgeAssignments
+After r->purgeAssignments();
+57
+----------------[INFO] slAssignment was finished
+---------------------assign 372 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x188a010, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 57.
+IN purgeAssignments
+After r->purgeAssignments();
+56
+----------------[INFO] slAssignment was finished
+---------------------assign 369 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1888090, 64 possible candidates
+Exhaustive search decomposing, attempted 464 of 1000 attempts, not exhausted
+assign 364 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1886f80, 64 possible candidates
+Exhaustive search decomposing, attempted 524 of 1000 attempts, not exhausted
+assign 368 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1887cc0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 56.
+IN purgeAssignments
+After r->purgeAssignments();
+55
+----------------[INFO] slAssignment was finished
+---------------------assign 358 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1884680, 64 possible candidates
+Exhaustive search decomposing, attempted 421 of 1000 attempts, not exhausted
+assign 357 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1884200, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 55.
+IN purgeAssignments
+After r->purgeAssignments();
+53
+----------------[INFO] slAssignment was finished
+---------------------assign 346 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x187ddb0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 53.
+IN purgeAssignments
+After r->purgeAssignments();
+52
+----------------[INFO] slAssignment was finished
+---------------------assign 343 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x187bd90, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 52.
+IN purgeAssignments
+After r->purgeAssignments();
+51
+----------------[INFO] slAssignment was finished
+---------------------assign 331 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1877ef0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 51.
+IN purgeAssignments
+After r->purgeAssignments();
+50
+----------------[INFO] slAssignment was finished
+---------------------assign 324 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18750d0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 50.
+IN purgeAssignments
+After r->purgeAssignments();
+49
+----------------[INFO] slAssignment was finished
+---------------------assign 318 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1872500, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 49.
+IN purgeAssignments
+After r->purgeAssignments();
+48
+----------------[INFO] slAssignment was finished
+---------------------assign 313 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x186fd50, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 48.
+IN purgeAssignments
+After r->purgeAssignments();
+47
+----------------[INFO] slAssignment was finished
+---------------------assign 310 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x186ddd0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 47.
+IN purgeAssignments
+After r->purgeAssignments();
+46
+----------------[INFO] slAssignment was finished
+---------------------assign 298 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x186a000, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 46.
+IN purgeAssignments
+After r->purgeAssignments();
+44
+----------------[INFO] slAssignment was finished
+---------------------assign 287 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1863790, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 44.
+IN purgeAssignments
+After r->purgeAssignments();
+43
+----------------[INFO] slAssignment was finished
+---------------------assign 280 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18609b0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 43.
+IN purgeAssignments
+After r->purgeAssignments();
+42
+----------------[INFO] slAssignment was finished
+---------------------assign 272 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x185d7a0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 42.
+IN purgeAssignments
+After r->purgeAssignments();
+40
+----------------[INFO] slAssignment was finished
+---------------------assign 259 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1856750, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 40.
+IN purgeAssignments
+After r->purgeAssignments();
+39
+----------------[INFO] slAssignment was finished
+---------------------assign 253 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1853e90, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 39.
+IN purgeAssignments
+After r->purgeAssignments();
+38
+----------------[INFO] slAssignment was finished
+---------------------assign 247 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x184f6e0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 38.
+IN purgeAssignments
+After r->purgeAssignments();
+37
+----------------[INFO] slAssignment was finished
+---------------------assign 239 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x184c520, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 37.
+IN purgeAssignments
+After r->purgeAssignments();
+36
+----------------[INFO] slAssignment was finished
+---------------------assign 233 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1849a30, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 36.
+IN purgeAssignments
+After r->purgeAssignments();
+35
+----------------[INFO] slAssignment was finished
+---------------------assign 227 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18470d0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 35.
+IN purgeAssignments
+After r->purgeAssignments();
+34
+----------------[INFO] slAssignment was finished
+---------------------assign 224 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1844f80, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 34.
+IN purgeAssignments
+After r->purgeAssignments();
+33
+----------------[INFO] slAssignment was finished
+---------------------assign 214 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1840b40, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 33.
+IN purgeAssignments
+After r->purgeAssignments();
+32
+----------------[INFO] slAssignment was finished
+---------------------assign 212 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x183ef50, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 32.
+IN purgeAssignments
+After r->purgeAssignments();
+31
+----------------[INFO] slAssignment was finished
+---------------------assign 200 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x183b330, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 31.
+IN purgeAssignments
+After r->purgeAssignments();
+30
+----------------[INFO] slAssignment was finished
+---------------------assign 197 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18373b0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 30.
+IN purgeAssignments
+After r->purgeAssignments();
+29
+----------------[INFO] slAssignment was finished
+---------------------assign 187 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18337e0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 29.
+IN purgeAssignments
+After r->purgeAssignments();
+28
+----------------[INFO] slAssignment was finished
+---------------------assign 180 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1830970, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 28.
+IN purgeAssignments
+After r->purgeAssignments();
+27
+----------------[INFO] slAssignment was finished
+---------------------assign 176 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x182e4b0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 27.
+IN purgeAssignments
+After r->purgeAssignments();
+26
+----------------[INFO] slAssignment was finished
+---------------------assign 171 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x182be60, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 26.
+IN purgeAssignments
+After r->purgeAssignments();
+25
+----------------[INFO] slAssignment was finished
+---------------------assign 160 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18282d0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 25.
+IN purgeAssignments
+After r->purgeAssignments();
+24
+----------------[INFO] slAssignment was finished
+---------------------assign 154 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1825700, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 24.
+IN purgeAssignments
+After r->purgeAssignments();
+23
+----------------[INFO] slAssignment was finished
+---------------------assign 147 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1822920, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 23.
+IN purgeAssignments
+After r->purgeAssignments();
+22
+----------------[INFO] slAssignment was finished
+---------------------assign 141 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x181fe70, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 22.
+IN purgeAssignments
+After r->purgeAssignments();
+21
+----------------[INFO] slAssignment was finished
+---------------------assign 137 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x181db90, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 21.
+IN purgeAssignments
+After r->purgeAssignments();
+19
+----------------[INFO] slAssignment was finished
+---------------------assign 125 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1815000, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 19.
+IN purgeAssignments
+After r->purgeAssignments();
+18
+----------------[INFO] slAssignment was finished
+---------------------assign 122 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1812df0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 18.
+IN purgeAssignments
+After r->purgeAssignments();
+17
+----------------[INFO] slAssignment was finished
+---------------------assign 114 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x180fbc0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 17.
+IN purgeAssignments
+After r->purgeAssignments();
+16
+----------------[INFO] slAssignment was finished
+---------------------assign 104 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x180c6c0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 16.
+IN purgeAssignments
+After r->purgeAssignments();
+15
+----------------[INFO] slAssignment was finished
+---------------------assign 99 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18085b0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 15.
+IN purgeAssignments
+After r->purgeAssignments();
+14
+----------------[INFO] slAssignment was finished
+---------------------assign 91 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1805420, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 14.
+IN purgeAssignments
+After r->purgeAssignments();
+12
+----------------[INFO] slAssignment was finished
+---------------------assign 78 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17fe600, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 12.
+IN purgeAssignments
+After r->purgeAssignments();
+0
+----------------[INFO] slAssignment was finished
+---------------------assign 0 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17e1800, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 0.
+IN purgeAssignments
+After r->purgeAssignments();
+1
+----------------[INFO] slAssignment was finished
+---------------------assign 7 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17e3aa0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 1.
+IN purgeAssignments
+After r->purgeAssignments();
+2
+----------------[INFO] slAssignment was finished
+---------------------assign 15 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17e5fa0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 2.
+IN purgeAssignments
+After r->purgeAssignments();
+3
+----------------[INFO] slAssignment was finished
+---------------------assign 18 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17e7540, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 3.
+IN purgeAssignments
+After r->purgeAssignments();
+4
+----------------[INFO] slAssignment was finished
+---------------------assign 26 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17e9910, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 4.
+IN purgeAssignments
+After r->purgeAssignments();
+5
+----------------[INFO] slAssignment was finished
+---------------------assign 31 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17ebfb0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 5.
+IN purgeAssignments
+After r->purgeAssignments();
+6
+----------------[INFO] slAssignment was finished
+---------------------assign 42 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17ef8f0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 6.
+IN purgeAssignments
+After r->purgeAssignments();
+7
+----------------[INFO] slAssignment was finished
+---------------------assign 44 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17f15d0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 7.
+IN purgeAssignments
+After r->purgeAssignments();
+8
+----------------[INFO] slAssignment was finished
+---------------------assign 56 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17f52d0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 8.
+IN purgeAssignments
+After r->purgeAssignments();
+9
+----------------[INFO] slAssignment was finished
+---------------------assign 58 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17f6de0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 9.
+IN purgeAssignments
+After r->purgeAssignments();
+10
+----------------[INFO] slAssignment was finished
+---------------------assign 64 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17f9770, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 10.
+IN purgeAssignments
+After r->purgeAssignments();
+11
+----------------[INFO] slAssignment was finished
+---------------------assign 73 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x17fc070, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 11.
+IN purgeAssignments
+After r->purgeAssignments();
+20
+----------------[INFO] slAssignment was finished
+---------------------assign 131 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1819870, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 20.
+IN purgeAssignments
+After r->purgeAssignments();
+77
+----------------[INFO] slAssignment was finished
+---------------------assign 504 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18c71d0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 77.
+IN purgeAssignments
+After r->purgeAssignments();
+97
+----------------[INFO] slAssignment was finished
+---------------------assign 636 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1906c40, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 97.
+IN purgeAssignments
+After r->purgeAssignments();
+45
+----------------[INFO] slAssignment was finished
+---------------------assign 293 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18662e0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 45.
+IN purgeAssignments
+After r->purgeAssignments();
+13
+----------------[INFO] slAssignment was finished
+---------------------assign 87 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1801be0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 13.
+IN purgeAssignments
+After r->purgeAssignments();
+85
+----------------[INFO] slAssignment was finished
+---------------------assign 557 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x18e02e0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 85.
+IN purgeAssignments
+After r->purgeAssignments();
+41
+----------------[INFO] slAssignment was finished
+---------------------assign 265 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x185acb0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 41.
+IN purgeAssignments
+After r->purgeAssignments();
+95
+----------------[INFO] slAssignment was finished
+---------------------assign 620 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x19006a0, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 95.
+IN purgeAssignments
+After r->purgeAssignments();
+54
+----------------[INFO] slAssignment was finished
+---------------------assign 355 result == FALSE THEN EXHAUSTIVESEARCHER
+Created exhaustive search environment to assign element 0x1881570, 64 possible candidates
+Exhaustive search decomposing, attempted 1001 of 1000 attempts, not exhausted
+----------------[ERROR] nodes assignment failed
+---------------------[ERROR] Failed to assign request 54.
+IN purgeAssignments
+After r->purgeAssignments();
+Already assigned requests -> 0
+AFTER algorithm.schedule();
+Before printResultsInHuaweiStyle
+
+
+Assignment size -> 26
+
+Current time -> 2017-5-17.20:37:59
+Algorithm work time -> 0  hours 0 mins 3 secs
+
+All virtual resources RAM 7721 VCPUs 3583 
+Sum virtual throughput 3649
+
+All physical resources RAM 4096 VCPUs 1024 
+Sum physical throughput 31639
+
+Used physical resources RAM 2023 VCPUs 930 
+Used physical throughput  5188
+
+RAM utilization 0.493896 VCPUs utilization 0.908203 Network utilization 0.163975
+Requests all -> 100
+Requests assigned -> 26
+Requests not assigned -> 74
+
+Print rules statistics
+VM-PM affinity rules:
+All -> 0
+Correct -> 0
+Unassigned -> 0
+Incorrect -> 0
+
+VM-PM anti-affinity rules:
+All -> 0
+Correct -> 0
+Unassigned -> 0
+Incorrect -> 0
+
+VM-VM affinity rules:
+All -> 0
+Correct -> 0
+Unassigned -> 0
+
+VM-VM anti-affinity rules:
+All -> 0
+Correct -> 0
+Incorrect -> 0
