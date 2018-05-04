@@ -1,1 +1,3 @@
-./build/*
+build/*
+.idea/*
+algo/cmake-build-debug/*

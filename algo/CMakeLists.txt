@@ -8,7 +8,7 @@ INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}
       include/
         prototype/
       )
-set ( CMAKE_PREFIX_PATH "/opt/Qt5.8/5.8/gcc_64/lib/cmake/")
+set ( CMAKE_PREFIX_PATH "/opt/Qt5.7.0/5.7/gcc_64/lib/cmake")
 find_package( Qt5Core REQUIRED )
 
 SET(CMAKE_CXX_FLAGS "-std=c++0x")
