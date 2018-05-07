@@ -21,6 +21,7 @@ public:
         nm = nullptr;
         numaBlocks = std::set<NumaBlock *>();
 
+        exhaustiveSearchMode = true;
         maxAttempts = 100;
         attempt = 0;
         depth = 3;
@@ -33,6 +34,8 @@ public:
         return computerType & VNF == VNF;
     }
 
+    void setExhaustiveSearchMode(bool mode);
+    bool getExhaustiveSearchMode();
     virtual bool assign(Element * other);
     virtual void unassign();
     bool exhaustivesearch(Element * other);
@@ -56,6 +59,8 @@ public:
     bool isNumaAssigned() const;
 
     int getNumaPart(const std::string & param);
+    void setNuma(const int &numa);
+    int getNuma();
 
 private:
     virtual bool typeCheck(const Element * other) const {
@@ -72,6 +77,7 @@ public:
 
 
     //FOR EXHAUSTIVE SEARCH
+    bool exhaustiveSearchMode;
     static int maxAttempts;
     static int attempt;
     static int depth;

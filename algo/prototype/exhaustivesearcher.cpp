@@ -96,8 +96,12 @@ bool ExhaustiveSearcher::makeAttempt() {
     Assignments cache = getAssignmentsCache(cortege);
     Elements assignmentPack = getAssignmentPack(cache);
 
+//    std::cout << " before getNumaAssignmentsCache" << std::endl;
+
     // save vm-numablock assignment if target is computer
     NumaAssignments numaCache = getNumaAssignmentsCache(assignmentPack);
+
+//    std::cout << "after getNumaAssignmentsCache, before save old pathes" << std::endl;
 
     //Save old pathes
     std::map<Link *, Path> oldPathes;
@@ -116,10 +120,14 @@ bool ExhaustiveSearcher::makeAttempt() {
     }
     //
 
+//    std::cout << "after save old pathes" << std::endl;
+
     // Unassign virtual elements.
     // If virtual elements are virtual machines than
     // unassign from servers and from NumaBlocks.
     Operation::forEach(assignmentPack, Operation::unassign);
+
+//    std::cout << "before performGreedyAssignment" << std::endl;
 
     assignmentPack.insert(target);
     if ( performGreedyAssignment(assignmentPack, cortege) ) {
@@ -143,15 +151,20 @@ bool ExhaustiveSearcher::makeAttempt() {
             needUpdatePathes = assignmentPack;
         }
 
+//        std::cout << "before updatePathes" << std::endl;
 
         if ( updatePathes(needUpdatePathes) ) {
             return true;
         }
 
+//        std::cout << "fail updatePathes" << std::endl;
+
         //If updatePathes return false then roll back to previous assignments
         Operation::forEach(assignmentPack, Operation::unassign);
 	
     }
+
+//    std::cout << "fail performGreedyAssignment" << std::endl;
 
     //Restore old location and old Pathes
     // Restore numablock location if exhaustive 
@@ -174,6 +187,8 @@ bool ExhaustiveSearcher::makeAttempt() {
         }
     }
 
+//    std::cout << "after restore old location of virtual nodes" << std::endl;
+
 
     for (std::map<Link *, Path>::iterator i = oldPathes.begin(); i != oldPathes.end(); i++) {
         Link * link = i->first;
@@ -186,6 +201,8 @@ bool ExhaustiveSearcher::makeAttempt() {
         link->setRoute(route);
         link->setAssignedFlag(true);
     }
+
+//    std::cout << "after restore old location of virtual links" << std::endl;
 
     return false;
 }
@@ -310,10 +327,12 @@ bool ExhaustiveSearcher::updatePathes(Elements & assignments) {
         if (tunnel->isAssigned())
             continue;
 
+//        std::cout << "before Bsearcher create" << std::endl;
         Element * start = tunnel->getFirst()->getParentNode()->getAssignee();
         Element * end = tunnel->getSecond()->getParentNode()->getAssignee();
         BSearcher searcher(start, end, tunnel);
 
+//        std::cout << "after Bsearcher create" << std::endl;
         if ( start == end ) {
             Path emptyPath = Path(end, start);
             tunnel->setRoute(emptyPath);
@@ -324,9 +343,13 @@ bool ExhaustiveSearcher::updatePathes(Elements & assignments) {
         if ( !searcher.isValid() ) {
             continue;
         }
+
+//        std::cout << "before Bsearcher.search" << std::endl;
         if ( !searcher.search() ) {
+//            std::cout << "Bsearcher.search was failed" << std::endl;
             return false;
         }
+//        std::cout << "Bsearcher.search was finished successfully" << std::endl;
         Path route = searcher.getPath();
         tunnel->setRoute(route);
         tunnel->setAssignedFlag(true);

@@ -42,7 +42,7 @@ TenantXMLFactory::TenantXMLFactory(const QDomElement & element)
 
     request = new Request(elements, name().toStdString());
 
-    //
+    // Add pointer to Request into each element
     for (Elements::iterator i = elements.begin(); i != elements.end(); i++)
         (*i)->request = request;
     //

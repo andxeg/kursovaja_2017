@@ -27,9 +27,15 @@ bool Computer::isNumaAssigned() const {
 int Computer::getNumaPart(const std::string & param) {
     // If server hasn't numa blocks or
     // hasn't parameter 'param' then return 0.
+    // If NUMA was disabled because of NUMA constraint:
+    // in this case for all server setNuma(0) were evaluated.
+    // In order to calculate correctly lostPerformance(See class Network),
+    // you must distinguish between cases: one - algo work without NUMA all time
+    // two - algo disable NUMA in the process.
+    // You must check length of numaBlocks vector
     
     int numa_part = 0;
-    if (numa == 0)
+    if (numaBlocks.size() == 0)
         return numa_part;
 
     NumaBlock * nb = *numaBlocks.begin();
@@ -122,8 +128,25 @@ void Computer::printNumaInfo() {
     // std::cout << std::endl;
 }
 
+void Computer::setExhaustiveSearchMode(bool mode) {
+    exhaustiveSearchMode = mode;
+}
+
+bool Computer::getExhaustiveSearchMode() {
+    return exhaustiveSearchMode;
+}
+
+void Computer::setNuma(const int &numa) {
+    this->numa = numa;
+}
+
+int Computer::getNuma() {
+    return numa;
+}
+
 bool Computer::assign(Element * other) {
     //TODO Implement for physical element
+    // std::cout << "computer::assign" << std::endl;
     if ( !canHostAssignment(other) )
         return false;
 
@@ -131,7 +154,7 @@ bool Computer::assign(Element * other) {
         return LeafNode::assign(other);
     }
 
-    // std::cout << "IN Computer::assign(Element * other)" << std::endl;
+//     std::cout << "IN Computer::assign(Element * other)" << std::endl;
 
     printNumaInfo();
     printParametersInfo();
@@ -144,7 +167,11 @@ bool Computer::assign(Element * other) {
             blocks.push_back(block);
     }
 
+    // std::cout << "after form candidates" << std::endl;
+
     if (blocks.empty()) {
+        if (!exhaustiveSearchMode)
+            return false;
         // std::cout << "Exhaustive search" << std::endl;
         if (!exhaustivesearch(other))
             return false;
@@ -155,8 +182,11 @@ bool Computer::assign(Element * other) {
 
     printNumaInfo();
 
+    // std::cout << "before blocks[0]->assign" << std::endl;
+
     //Greedy criteria
     bool result;
+
     result = blocks[0]->assign(other);
     //if element was assigned then unassign it in NUMABLOCK::assign
     //unassign from numa block and server
@@ -170,6 +200,9 @@ bool Computer::assign(Element * other) {
     } else {
         //ExhaustiveSearch
         // std::cout << "Exhaustive search" << std::endl;
+        if (!exhaustiveSearchMode)
+            return false;
+
         if (!exhaustivesearch(other))
             return false;
     }
@@ -179,7 +212,12 @@ bool Computer::assign(Element * other) {
 
 
 void Computer::unassign() {
-    nm->unassign(this);
+    // when disable NUMA architecture accounting
+    // VM will be assigned on server without numablocks
+    // therefore you must check if nm is nullptr or not
+    if (nm != nullptr)
+        nm->unassign(this);
+
     LeafNode::unassign();
 }
 
@@ -191,6 +229,7 @@ Computer::~Computer() {
 
 
 bool Computer::exhaustivesearch(Element * other) {
+//    std::cout << "Computer::exhaustivesearch" << std::endl;
     exhaustiveInit(other);
 
     while( indices[depth - 1] != indices[depth] ) {
@@ -335,7 +374,7 @@ bool Computer::greedyAlgorithm(Elements &t, NumaBlocks & p) {
 
         if ( !result ) {
             for (std::vector<Element *>::iterator k = targets.begin(); k != targets.end(); k++) {
-                if ((*k)->toComputer()->nm == 0)
+                if ((*k)->toComputer()->nm == nullptr)
                     continue;
 
                 Computer * vm = (*k)->toComputer();

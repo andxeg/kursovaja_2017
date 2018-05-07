@@ -7,15 +7,14 @@
 class Algorithm
 {
 protected:
-    Algorithm(Network * n, const Requests & r)
-    :
-        network(n),
-        requests(r)
-    {
-    
+    Algorithm(Network * n, const Requests & r) {
+        network = n;
+        requests = r;
     }
+
 public:
-    virtual void schedule() = 0; 
+    virtual void schedule() = 0;
+
 protected:
     Network * network;
     Requests requests;

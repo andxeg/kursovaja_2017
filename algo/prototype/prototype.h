@@ -5,17 +5,14 @@
 #include <deque>
 #include "algorithm.h"
 #include "exhaustivesearcher.h"
+#include "config.h"
 
 class PrototypeAlgorithm : public Algorithm {
     friend class ExhaustiveSearcher;
     friend class Snapshot;
 public:
-    PrototypeAlgorithm(Network * n, const Requests & r)
-    : Algorithm(n, r) {}
-
-
+    PrototypeAlgorithm(Network * n, const Requests & r, Config &config);
     virtual void schedule();
-
     void setResources(const Resources & r) { resources = r; }
     void setTenants(const TenantsElements & t) { tenantsElements = t; }
 
@@ -39,6 +36,16 @@ private:
 private:
 	Resources resources;
 	TenantsElements tenantsElements;
+	bool vmExhaustive;
+	bool numaExhaustive;
+	float policyConstraint;
+	float numaConstraint;
+    int totalRulesCount;       // total number of rules in all requests
+	int totalVmCount;          // total number of virtual machine in all requests
+                               // which must assigned on server with NUMA architecture
+    int currentRulesSatisfied; // current satisfied rules
+    int currentVmAssigned;   // current successfully assigned vm on servers with NUMA architecture
+    // TODO in current version of algorithm all servers simultaneously has NUMA architecture or not
 
 public:
 	Requests incorrectRequests;

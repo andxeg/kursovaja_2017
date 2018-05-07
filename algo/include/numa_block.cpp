@@ -24,6 +24,7 @@ double NumaBlock::weight() const {
 }
 
 bool NumaBlock::assign(Element * other) {
+    // std::cout << "other -> " << other << std::endl;
     if (!canAssign(other)) {
         // std::cout << "canAssign return false" << std::endl;
         return false;
@@ -38,7 +39,7 @@ bool NumaBlock::assign(Element * other) {
         return true;
 
     /* Server NB
-         -    -  | good sitation
+         -    -  | good situation
          -    +  | 
          +    -  | 
          +    +  | 
@@ -104,7 +105,7 @@ bool NumaBlock::assign(Element * other) {
 
 void NumaBlock::unassign(Element * other) {
     //UNASSIGN ONLY FROM NUMABLOCK
-    if ( other->toComputer()->nm == 0 )
+    if ( other->toComputer()->nm == nullptr )
         return;
 
     removeAssignment(other);
@@ -162,7 +163,7 @@ void NumaBlock::removeAssignment(Element * other) {
 
     restoreResources(other);
 
-    other->toComputer()->nm = 0;
+    other->toComputer()->nm = nullptr;
     assignments.erase(a);
 }
 

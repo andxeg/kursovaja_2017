@@ -14,12 +14,21 @@ public:
         affine = false;
         provider = false;
         elements = Operation::filter(e, Criteria::isVirtual);
+        rules = 0;
     }
 
     Request(const Request & other) { 
         affine = other.affine;
         name = other.name; 
         elements = other.elements;
+    }
+
+    void setRulesCount(const int &rules) {
+        this->rules = rules;
+    }
+
+    int getRulesCount() {
+        return rules;
     }
 
     inline Elements assignedElements() const {

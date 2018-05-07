@@ -89,6 +89,7 @@ public:
     }
 
     virtual void unassign() {
+//        std::cout << "Node::unassign()" << std::endl;
         if ( !isAssigned() )
             return;
 

@@ -27,6 +27,30 @@
 double PrototypeAlgorithm::maxWeight;
 double PrototypeAlgorithm::maxRules;
 
+PrototypeAlgorithm::PrototypeAlgorithm(Network * n,
+                                       const Requests & r,
+                                       Config &config)
+        : Algorithm(n, r) {
+    vmExhaustive = config.get_boolean_by_name("vm_exhaustive");
+    numaExhaustive = config.get_boolean_by_name("numa_exhaustive");
+    policyConstraint = config.get_float_by_name("policy_constraint");
+    numaConstraint = config.get_float_by_name("numa_constraint");
+    std::cout << "vmExhaustive: " << vmExhaustive << std::endl;
+    std::cout << "numaExhaustive: " << numaExhaustive << std::endl;
+    std::cout << "policyConstraint: " << policyConstraint << std::endl;
+    std::cout << "numaConstraint: " << numaConstraint << std::endl;
+    totalRulesCount = 1;
+    totalVmCount = 1;
+    currentRulesSatisfied = 0;
+    currentVmAssigned = 0;
+
+    Elements servers = network->getComputers();
+    for (Elements::iterator it = servers.begin(); it != servers.end(); it++) {
+        (*it)->toComputer()->setExhaustiveSearchMode(numaExhaustive);
+    }
+
+}
+
 std::vector<Request *> PrototypeAlgorithm::prioritizeRequests(Requests & r) {
     std::vector<Request *> res;
     res.insert(res.end(), r.begin(), r.end());
@@ -38,7 +62,11 @@ std::vector<Request *> PrototypeAlgorithm::prioritizeRequests(Requests & r) {
             maxWeight = request->weight();
         if (request->rules > maxRules)
             maxRules = request->rules;
+        totalRulesCount += request->rules;
+        totalVmCount += request->getMachines().size();
     }
+    std::cout << "totalRulesCount: " << totalRulesCount << std::endl;
+    std::cout << "totalVmCount: " << totalVmCount << std::endl;
 
     std::sort(res.begin(), res.end(), increasingByRulesCountAndWeight);
 
@@ -48,7 +76,8 @@ std::vector<Request *> PrototypeAlgorithm::prioritizeRequests(Requests & r) {
 bool PrototypeAlgorithm::increasingByRulesCountAndWeight(Request * first, Request * second) {
     double w1 = 0.2;
     double w2 = 0.8;
-    return w1* first->weight() + w2 * first->rules > w1 * second->weight() + w2 * second->rules;
+    return (w1 * first->weight()  + w2 * first->rules) >
+           (w1 * second->weight() + w2 * second->rules);
 }
 
 
@@ -180,7 +209,7 @@ void PrototypeAlgorithm::schedule() {
             continue;
         }
 
-        Request * fakeRequest = new Request(*r);
+        Request *fakeRequest = new Request(*r);
         if ( assignNodesAndLinks(fakeRequest)) {
             assignedRequests++;
             std::cout << "Now assigned -> " << assignedRequests << std::endl;
@@ -188,10 +217,40 @@ void PrototypeAlgorithm::schedule() {
             Elements elems = r->getElements();
             for (Elements::iterator k = elems.begin(); k != elems.end(); k++) {
                 if (!(*k)->isAssigned()) {
+                    std::string elementName = tenantsElements[*k][1];
                     incorrectRequests.insert(r);
-                    fprintf(stdout, "[ERROR] Not all element from request were assigned %s.\n", r->getName().c_str());
-                    fprintf(stderr, "[ERROR] Not all element from request were assigned %s.\n", r->getName().c_str());
+                    fprintf(stdout,
+                            "[ERROR] Element %s from request %s was not assigned\n",
+                            elementName.c_str(),
+                            r->getName().c_str());
+
+                    fprintf(stderr,
+                            "[ERROR] Element %s from request %s was not assigned\n",
+                            elementName.c_str(),
+                            r->getName().c_str());
                     break;
+                }
+            }
+
+            currentRulesSatisfied += r->rules;
+            currentVmAssigned += r->getMachines().size();
+            // disable numa assignment if constraint was satisfied
+            if (((float) currentVmAssigned / totalVmCount) >= numaConstraint) {
+                fprintf(stdout, "------------------[INFO] NUMA constraint was satisfied----------------\n");
+                Elements servers = network->getComputers();
+                for (Elements::iterator it = servers.begin(); it != servers.end(); it++) {
+                    (*it)->toComputer()->setNuma(0);
+                }
+
+                for (auto it = requests.begin(); it != requests.end(); it++) {
+                    Elements vms = Operation::filter((*it)->getMachines(), Criteria::isAssigned);
+                    for (auto j = vms.begin(); j != vms.end(); j++) {
+                        Computer *vm = (*j)->toComputer();
+                        if (vm->nm != nullptr) {
+                            vm->nm->unassign(vm);
+                            vm->nm = nullptr;
+                        }
+                    }
                 }
             }
 
@@ -219,32 +278,36 @@ bool PrototypeAlgorithm::assignNodesAndLinks(Request * r) {
     Elements unassignedNodes = Operation::filter(r->elementsToAssign(), Criteria::isComputational);
     Elements serverLayered = Operation::filter(r->elementsToAssign(), Criteria::isServerLayered);
 
-    if ( !slAssignmentWithCompactness(serverLayered, pool, r) ) {
-        fprintf(stdout, "----------------[ERROR] server layer requirement failed\n---------------------");
-        return false;
-    }
+    // POLICY SATISFIED
 
-    fprintf(stdout, "----------------[INFO] slAssignment was finished\n---------------------");
+    if (((float)currentRulesSatisfied / totalRulesCount) < policyConstraint) {
+        if ( !slAssignmentWithCompactness(serverLayered, pool, r)) {
+            fprintf(stdout, "----------------[ERROR] Server layer requirement failed----------------\n");
+            return false;
+        }
+        fprintf(stdout, "----------------[INFO] slAssignment was finished----------------\n");
+    } else {
+        fprintf(stdout, "----------------[INFO] Rules were satisfied----------------\n");
+    }
 
 
     //ASSIGN_NODES
     if( !assignNodes(unassignedNodes, pool, r)) {
-        fprintf(stdout, "----------------[ERROR] nodes assignment failed\n---------------------");
+        fprintf(stdout, "----------------[ERROR] nodes assignment failed----------------\n");
         return false;
     }
+    fprintf(stdout, "----------------[INFO] assignNodes was finished----------------\n");
 
-    fprintf(stdout, "----------------[INFO] assignNodes was finished\n---------------------");
     //ASSIGN_LINKS
-
     if (r->assignedElements().size() != r->getNodes().size())
-        fprintf(stdout, "----------------[ERROR] not all nodes were assigned in assignNodes\n---------------------");
+        fprintf(stdout, "----------------[ERROR] not all nodes were assigned in assignNodes----------------\n");
 
     bool result = assignLinks(r);
 
     if (result)
-        fprintf(stdout, "----------------[INFO] links assignment was finished\n---------------------");
+        fprintf(stdout, "----------------[INFO] links assignment was finished----------------\n");
     else
-        fprintf(stdout, "----------------[ERROR] links assignment failed\n---------------------");
+        fprintf(stdout, "----------------[ERROR] links assignment failed----------------\n");
     return result;
 }
 
@@ -436,10 +499,12 @@ bool PrototypeAlgorithm::assignNodes(Elements & virtualNodes, Elements & pool, R
             //     result = assignSeedElement(r, nextToAssign, pool);
             // }
 
-
             bool result = assignSeedElement(r, nextToAssign, pool);
 
             if ( !result ) {
+                if (!vmExhaustive) {
+                    return false;
+                }
                 std::cout << "assign " << tenantsElements[nextToAssign][1] << " result == FALSE THEN EXHAUSTIVESEARCHER" << std::endl;
                 nextToAssign->unassign();
                 Elements assignedElements = Operation::filter(r->assignedElements(), Criteria::isComputational);
@@ -484,27 +549,41 @@ bool PrototypeAlgorithm::assignLinks(Request * request) {
     std::sort(tunnels.begin(), tunnels.end(), Criteria::elementWeightDescending);
 
     for(size_t e = 0; e < tunnels.size(); e ++) {
+//        std::cout << "start processing tunnel" << std::endl;
         Element * edge = tunnels[e];
         Link * tunnel = edge->toLink();
         if (tunnel->isAssigned())
             continue;
 
+//        std::cout << "PrototypeAlgorithm::assignLinks 1" << std::endl;
+
         Element * start = tunnel->getFirst()->getParentNode()->getAssignee();
         Element * end = tunnel->getSecond()->getParentNode()->getAssignee();
 
+//        std::cout << "PrototypeAlgorithm::assignLinks 2" << std::endl;
+
         BSearcher searcher(start, end, tunnel);
+//        std::cout << "PrototypeAlgorithm::assignLinks 2.1" << std::endl;
         if ( start == end ) {
+//            std::cout << "PrototypeAlgorithm::assignLinks 2.2" << std::endl;
             Path emptyPath = Path(end, start);
+//            std::cout << "tunnel: " << tunnel << std::endl;
             tunnel->setRoute(emptyPath);
             tunnel->setAssignedFlag(true);
+//            std::cout << "PrototypeAlgorithm::assignLinks 2.3" << std::endl;
             continue;
         }
+
+//        std::cout << "PrototypeAlgorithm::assignLinks 3" << std::endl;
 
         if ( !searcher.isValid() ) {
             continue;
         }
 
+//        std::cout << "PrototypeAlgorithm::assignLinks 4" << std::endl;
+
         if ( !searcher.search() ) {
+//            std::cout << "PrototypeAlgorithm::assignLinks 5" << std::endl;
             bool result = true;
             Elements assignedElements;
             std::map<Link *, Path> oldPathes;
@@ -524,11 +603,15 @@ bool PrototypeAlgorithm::assignLinks(Request * request) {
 
                 tunnel->getFirst()->getParentNode()->unassign();
                 assignedElements = Operation::filter(request->assignedElements(), Criteria::isComputational);
+                result = !vmExhaustive ? false :
+                         exhaustiveSearch(tunnel->getFirst()->getParentNode(), pool, assignedElements, false);
 
-                result = exhaustiveSearch(tunnel->getFirst()->getParentNode(), pool, assignedElements, false);
+//                std::cout << "after exhaustiveSearch 1" << std::endl;
 
                 if (result)
                     continue;
+
+//                std::cout << "after result 1" << std::endl;
             }
 
             if (((LeafNode *)tunnel->getSecond()->getParentNode())->getMigration() != 0) {
@@ -552,13 +635,16 @@ bool PrototypeAlgorithm::assignLinks(Request * request) {
                 }
 
                 tunnel->getSecond()->getParentNode()->unassign();
-
                 assignedElements = Operation::filter(request->assignedElements(), Criteria::isComputational);
-                result = exhaustiveSearch(tunnel->getSecond()->getParentNode(), pool, assignedElements, false);
+                result = !vmExhaustive ? false :
+                         exhaustiveSearch(tunnel->getSecond()->getParentNode(), pool, assignedElements, false);
+
+//                std::cout << "after exhaustiveSearch 2" << std::endl;
+
 
                 if (result)
                     continue;
-
+//                std::cout << "after result 2" << std::endl;
             }
 
             return false;
@@ -569,7 +655,6 @@ bool PrototypeAlgorithm::assignLinks(Request * request) {
         }
     }
 
-    std::cout << "++++++++++++++++++++++" << std::endl;
     return true;
 
 }

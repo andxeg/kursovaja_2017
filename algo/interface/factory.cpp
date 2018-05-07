@@ -255,8 +255,6 @@ void Factory::setNumaBlocks(Computer * node, const QDomElement & e) {
 
     int numa = e.attribute("numa").toInt();
 
-    // numa = 0;
-
     if (numa <= 0)
         return;
 

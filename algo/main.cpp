@@ -4,25 +4,21 @@
 #include "interface/elementfactory.h"
 #include "prototype/prototype.h"
 
-
 #include "defs.h"
 #include "request.h"
 #include "network.h"
 #include "operation.h"
 #include "criteria.h"
+#include "string_converter.h"
+#include "config.h"
+
 
 #include <QString>
 #include <ctime>
 #include <iostream>
 #include <sstream>
 
-template <typename T>
-std::string ToString(T val)
-{
-    std::stringstream stream;
-    stream << val;
-    return stream.str();
-}
+
 
 enum ReturnCodes {
    SUCCESS = 0,
@@ -31,39 +27,43 @@ enum ReturnCodes {
    INVALID_USAGE
 };
 
-int main(int argc, char ** argv)
-{
+int main(int argc, char ** argv) {
     //print current data and time
     time_t t = time(0);
-    struct tm * now = localtime(&t);
+    struct tm *now = localtime(&t);
     std::string result = ToString<int>(now->tm_year + 1900) + std::string("-") +
                          ToString<int>(now->tm_mon + 1) + std::string("-") +
-                         ToString<int>(now->tm_mday ) + std::string(".") +
-                         ToString<int>(now->tm_hour ) + std::string(":") +
-                         ToString<int>(now->tm_min ) + std::string(":") +
-                         ToString<int>(now->tm_sec );
+                         ToString<int>(now->tm_mday) + std::string(".") +
+                         ToString<int>(now->tm_hour) + std::string(":") +
+                         ToString<int>(now->tm_min) + std::string(":") +
+                         ToString<int>(now->tm_sec);
     std::cout << "Current time -> " << result << std::endl;
     //
     int hour_start = now->tm_hour;
     int min_start = now->tm_min;
     int sec_start = now->tm_sec;
     //
-
-    if ( argc < 4 )
-    {
-        printf("Usage: %s <input file> <output file xml> <output file huawei>\n", *argv);
+    if (argc != 5) {
+        printf("Usage: %s <input file> <output file xml> <output file huawei> <config_file>\n", *argv);
         return INVALID_USAGE;
     }
 
+    const char *inputXmlFileName = *(++argv);
+    const char *outputXmlFileName = *(++argv);
+    const char *outputHuaweiFileName = *(++argv);
+    const char *configFileName = *(++argv);
+    Config config(configFileName);
+
     Snapshot snapshot;
-    if ( !snapshot.read(argv[1]) )
+    if ( !snapshot.read(inputXmlFileName) )
        return INVALID_INPUT;
 
     std::string comment = std::string("Before_scheduling");
     snapshot.print(comment);
 
     Requests requests = snapshot.getRequests();
-    PrototypeAlgorithm algorithm(snapshot.getNetwork(), requests);
+
+    PrototypeAlgorithm algorithm(snapshot.getNetwork(), requests, config);
 
     algorithm.setResources(snapshot.getResources());
     algorithm.setTenants(snapshot.getTenants());
@@ -86,9 +86,9 @@ int main(int argc, char ** argv)
             nodeAssignedRequests++;
     }
 
-    snapshot.write(argv[2]);
+    snapshot.write(outputXmlFileName);
     std::cout << "Before printResultsInHuaweiStyle" << std::endl;
-    snapshot.printResultsInHuaweiStyle(argv[3]);
+    snapshot.printResultsInHuaweiStyle(outputHuaweiFileName);
 
     //print current data and time
     t = time(0);
@@ -240,11 +240,9 @@ int main(int argc, char ** argv)
 
     //Network resources utilization
     std::cout << "Network utilization " << sumUsedThroughput / sumThroughput << std::endl;
-    //
 
-    
-    
-    if (argc >=5 && std::string(argv[4]) == std::string("numa_stat")) {
+    bool numa_stat = config.get_boolean_by_name("numa_stat");
+    if (numa_stat) {
         // Performance statistics
         // This statistics methods must launch when 
         // In Computer::assign work common assignment procedure
@@ -269,7 +267,6 @@ int main(int argc, char ** argv)
         std::cout << "    HIGH: " << performanceStat[0] - performanceStat[1] << std::endl;
         std::cout << "    LOW: " <<  performanceStat[1] << std::endl;
         std::cout << std::endl;
-        //
     }
 
     printf("Requests all -> %lu\n", requests.size());
@@ -278,7 +275,6 @@ int main(int argc, char ** argv)
     printf("\nPrint rules statistics\n");
     snapshot.printRulesStat();
     ElementFactory::deleteParameters();
-
 
     if ( nodeAssignedRequests != requests.size())
         return PARTIAL_FAILURE;
