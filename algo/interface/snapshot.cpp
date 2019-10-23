@@ -654,7 +654,7 @@ void Snapshot::printRulesStat() {
 		if (unassign) {
 			unassigned += 1;
 			std::cout << "{ Unassigned vms ";
-			for (Elements::iterator j = vm-> vm_vm_affinity.begin(); j != vm->vm_vm_affinity.end(); j++ )
+			for (Elements::iterator j = vm->vm_vm_affinity.begin(); j != vm->vm_vm_affinity.end(); j++ )
 				std::cout << tenants[*j][1] << " ";
 			std::cout << "from " << tenants[vm][0];
 			Elements elems = vm->request->getElements();
@@ -669,7 +669,7 @@ void Snapshot::printRulesStat() {
 		} else {
 			correct += 1;
 			std::cout << "{ Correct vms ";
-			for (Elements::iterator j = vm-> vm_vm_affinity.begin(); j != vm->vm_vm_affinity.end(); j++ )
+			for (Elements::iterator j = vm->vm_vm_affinity.begin(); j != vm->vm_vm_affinity.end(); j++ )
 				std::cout << tenants[*j][1] << " ";
 			std::cout << "from " << tenants[vm][0];
 			Elements elems = vm->request->getElements();
@@ -695,7 +695,7 @@ void Snapshot::printRulesStat() {
 
 		bool unassign = false;
 
-		for (Elements::iterator j = vm-> vm_vm_anti_affinity.begin(); j != vm->vm_vm_anti_affinity.end(); j++ ){
+		for (Elements::iterator j = vm->vm_vm_anti_affinity.begin(); j != vm->vm_vm_anti_affinity.end(); j++ ){
 			Element * other_vm = (*j);
 
 			if (!other_vm->isAssigned()) {
@@ -716,7 +716,9 @@ void Snapshot::printRulesStat() {
 		if (unassign) {
 			unassigned += 1;
 			std::cout << "{ Unassigned vms ";
-			std::cout << std::endl;
+			for (Elements::iterator j = vm->vm_vm_anti_affinity.begin(); j != vm->vm_vm_anti_affinity.end(); j++ )
+				std::cout << tenants[*j][1] << " ";
+			std::cout << "from " << tenants[vm][0];
 			Elements elems = vm->request->getElements();
 			for (Elements::iterator k = elems.begin(); k != elems.end(); k++)
 				if ((*k)->isAssigned()) {
@@ -728,7 +730,9 @@ void Snapshot::printRulesStat() {
 		} else {
 			correct += 1;
 			std::cout << "{ Correct vms ";
-			std::cout << std::endl;
+			for (Elements::iterator j = vm->vm_vm_anti_affinity.begin(); j != vm->vm_vm_anti_affinity.end(); j++ )
+				std::cout << tenants[*j][1] << " ";
+			std::cout << "from " << tenants[vm][0];
 			Elements elems = vm->request->getElements();
 			for (Elements::iterator k = elems.begin(); k != elems.end(); k++)
 				if (!(*k)->isAssigned()) {
